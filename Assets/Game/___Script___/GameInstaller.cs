@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using RSFramework;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
@@ -8,16 +9,10 @@ namespace Game
 {
     public class GameInstaller : LifetimeScope
     {
-        // Start is called before the first frame update
-        void Start()
+        protected override void Configure(IContainerBuilder builder)
         {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
+            UIManagerInstaller.Install(builder);
+            builder.RegisterComponentInHierarchy<GeneralObject>();
         }
     }
 }
