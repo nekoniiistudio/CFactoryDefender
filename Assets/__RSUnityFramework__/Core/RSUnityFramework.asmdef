@@ -1,0 +1,39 @@
+{
+    "name": "RSUnityFramework",
+    "rootNamespace": "",
+    "references": [
+        "UniTask",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Unity.TextMeshPro",
+        "VContainer",
+        "UnityScreenNavigator",
+        "Unity.Localization",
+        "RSResourceLoader"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.localization",
+            "expression": "",
+            "define": "RSF_USE_LOCALIZATION"
+        },
+        {
+            "name": "com.unity.addressables",
+            "expression": "",
+            "define": "RSF_USE_ADDRESSABLES"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "",
+            "define": "RSF_USE_TEXTMESHPRO"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+{
+    "name": "DemoGameScene",
+    "rootNamespace": "",
+    "references": [
+        "GUID:56de60c0265234ca88a5d7c50e476017",
+        "GUID:4943717d4693f46a8bef45d545fd6dac",
+        "GUID:453b550a3c13b49d4b7f01bd021734d8",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
