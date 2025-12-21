@@ -11,8 +11,9 @@ namespace Game
     {
         protected override void Configure(IContainerBuilder builder)
         {
-            UIManagerInstaller.Install(builder);
-            builder.RegisterComponentInHierarchy<GeneralObject>();
+            UIManagerInstaller.Install(builder); 
+            //builder.RegisterComponentInHierarchy<GeneralObject>();
+            builder.RegisterComponentInHierarchy<TestData>();
         }
     }
 }

@@ -15,6 +15,8 @@ namespace Game
         public void TouchPlay()
         {
             _uiManager.PushPage<LevelSelectScreen>();
+            //_uiManager.PopAllPopup();
         }
+        
     }
 }
