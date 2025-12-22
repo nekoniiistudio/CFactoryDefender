@@ -11,6 +11,7 @@ namespace Game
     public class LevelSelectScreen : Page
     {
         [Inject] IUIManager _uiManager;
+        [Inject] GameDat _gameDat;
 
         public void TouchPlay()
         {
@@ -20,6 +21,11 @@ namespace Game
         public void TouchBack()
         {
             _uiManager.PushPage<HomeScreen>();
+        }
+        public void TouchLevel(int level)
+        {
+            _gameDat.currentLevel = level;
+            _uiManager.PushPage<PlayScreen>();
         }
     }
 }
